@@ -1,6 +1,11 @@
-# BRDate - Biblioteca para trabalhar com data e hora no formato brasileiro
+# BRDate - Biblioteca de datas para o framework CodeIgniter
 
-Biblioteca para CodeIgniter, 100% em português, para operações com data e hora.
+Biblioteca para CodeIgniter, 100% em português, para operações com data e hora no formato brasileiro.
+
+**Versão:** 0.1
+
+**Autor:** Jonathan Lamim Antunes
+
 _______
 ## Como utilizar
 
