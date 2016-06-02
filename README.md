@@ -31,7 +31,7 @@ Converte data no padrão dd/mm/aaaa para aaaa-mm-dd
 
  * **Parâmetros:** `$data` — `string` — String da data no formato do banco de dados (aaaa-m-d)
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `Banco2Padrao( $data )`
 
@@ -39,7 +39,7 @@ Converte uma data no padrão aaaa-mm-dd para dd/mm/aaaa
 
  * **Parâmetros:** `$data` — `string` — Data no formato brasileiro (dd/mm/aaaa)
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `dataAtual( $strFormato = "Y-m-d" )`
 
@@ -47,7 +47,7 @@ Retorna a data atual no fuso horário de Brasília, independente das configuraç
 
  * **Parâmetros:** `$strFormato` — `string` — Formato da data a ser retornado
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `getData( $strData )`
 
@@ -55,7 +55,7 @@ Extrai somente a data de uma string com data e hora
 
  * **Parâmetros:** `$strData` — `string` — Data e Hora
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `getHora( $strData )`
 
@@ -63,7 +63,7 @@ Extrai somente a hora de uma string com data e hora
 
  * **Parâmetros:** `$strData` — `string` — Data e Hora
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `adicionarDias( $data, $quantidade, $strIntervalo = "d", $bolRetornaDiaUtil = false, $bolSabadoDiaUtil = false )`
 
@@ -80,7 +80,7 @@ Soma ou diminui x dias para de data no padrão aaaa-mm-dd
 
    * `$bolSabadoDiaUtil` — `bolean` — Se sábado será contado como dia útil ou não
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `adicionarHoras( $hora, $quantidade, $strIntervalo = "h", $bolRetornaSegundos = false )`
 
@@ -95,7 +95,7 @@ Soma ou diminui x horas para o tempo no padrão h:i:s
 
    * `$bolRetornaSegundos` — `bolean` — Se vai retornar os segundos ou não
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `adicionarDiasUteis( $data, $dias, $bolSabadoDiaUtil = false )`
 
@@ -108,7 +108,7 @@ Soma x dias úteis para a data
 
    * `$bolSabadoDiaUtil` — `bolean` — Se sábado é dia útil ou não
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `calcularDiferencaDias( $strDataInicio, $strDataFim, $strIntervalo = "d", $bolDiasUteis = false, $bolSabadoDiaUtil = false )`
 
@@ -127,7 +127,7 @@ Calcula a diferença de dias entre duas datas
 
    * `$bolSabadoDiaUtil` — `bolean` — Se sábado é dia útil ou não
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `calcularDiferencaTempo( $strDataInicio, $strDataFim )`
 
@@ -138,7 +138,7 @@ Calcula a diferença de tempo entre duas datas
 
    * `$strDataFim` — `string` — Data de início
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ## `calcularIdade( $data_nascimento, $strDataAtual = null )`
 
@@ -149,7 +149,7 @@ Calcula a idade a partir da data de nascimento
 
    * `$strDataAtual` — `string` — Data final do intervalo de cálculo
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `calcularAnosBissextos( $strDataInicio, $strDataFim )`
 
@@ -160,7 +160,7 @@ Calcula o total de anos bissextos entre duas datas
 
    * `$strDataFim` — `string` — Data de início
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ## `retornaNomeMes( $intMes )`
 
@@ -168,7 +168,7 @@ Verifica o nome do mês
 
  * **Parâmetros:** `$intMes` — `int` — Mês
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `retornaDia( $data )`
 
@@ -176,7 +176,7 @@ Retorna o dia para uma determinada data
 
  * **Parâmetros:** `$data` — `string` — Data
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `retornaMes( $data )`
 
@@ -184,7 +184,7 @@ Retorna o mês para uma determinada data
 
  * **Parâmetros:** `$data` — `string` — Data
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `retornaAno( $data )`
 
@@ -192,7 +192,7 @@ Retorna o ano para uma determinada data
 
  * **Parâmetros:** `$data` — `string` — Data
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `retornaNomeDataCompacta( $data )`
 
@@ -200,7 +200,7 @@ Retorna a data por extenso, compactada (Jun/16)
 
  * **Parâmetros:** `$data` — `string` — Data
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `exibirDataPorExtenso( $data = null, $bolExibirDiaDaSemana = true )`
 
@@ -211,7 +211,7 @@ Retorna a data por extenso
 
    * `$bolExibirDiaDaSemana` — `boolean` — Se irá exibir o dia da semana ou não
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `exibirDiaDaSemana( $data )`
 
@@ -219,13 +219,13 @@ Retorna o dia da semana
 
  * **Parâmetros:** `$data` — `string` — Data
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `exibirMensagemCumprimento()`
 
 Retorna uma mensagem de cumprimento com base na hora atual (bom dia, boa tarde, boa noite, boa madrugada)
 
- * **Retorno:** `string` —
+ * **Retorno:** `string`
 
 ### `verificaDiaUtil( $data, $bolSabadoDiaUtil = false )`
 
@@ -236,4 +236,4 @@ Verifica se é dia útil
 
    * `$bolSabadoDiaUtil` — `boolean` — Se sábado é dia útil ou não
 
- * **Retorno:** `boolean` —
+ * **Retorno:** `boolean`
