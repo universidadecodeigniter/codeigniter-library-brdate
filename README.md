@@ -13,11 +13,11 @@ Para utilizar a library BRDate você deverá copiá-la para o diretório `librar
 
 **Autoload**
 
-`$autoload['library'] = array('BRDate');`
+`$autoload['library'] = array('BRdate');`
 
 **Controller**
 
-`$this->load->library('BRDate');`
+`$this->load->library('BRdate');`
 
 Após fazer o carregamento, basta chamar as funções da library usando `$this->brdate->exibirMensagemCumprimento()`, por exemplo.
 
